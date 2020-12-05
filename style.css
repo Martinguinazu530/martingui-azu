@@ -1,53 +1,99 @@
-# martingui-azu
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Landing page de Martin Guiñazu</title>
-	<meta charset="utf-8">
+body {
+	background-image: url('imagenes/13.0.jpg');
+	background-size: cover;
+	color: white;
+	margin: 0;
+	background-position: center;
+}
 
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chivo:ital,wght@1,900&family=Overpass:ital,wght@1,600&display=swap" rel="stylesheet">
+h1, h2 {
+	font-family: 'Abril'
+}
 
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+.container {
+	font-size: 19px;
+	margin: 16px;
+	color: white;
+}
 
-<body>	
+.banner {
+	background-size: cover;
+	background-position: center;
+	padding: 140px 0;
+	text-align: center;
+}
 
-<!--banner section-->
-<div class="banner">
-<h1>VISITA MI USUARIO!!</h1>
-<h2>Encontrarás un contenido absolutamente limpio</h2>
-<marquee direction='down'>⇓</marquee> 
-	<a href="https://www.instagram.com/tinn_guinazu/" target="_blank" class="btn-blue"> <img src="imagenes/instagram1.png"> 
- </a>
-</div>
+.banner h1 {
+	font-size: 80px;
+	margin: 4px;
+}
+
+.banner h2 {
+	font-size: 26px;
+	color: #c0c6ed;
+}
+
+.banner marquee {
+	color: white;
+	height: 55px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.banner img {
+	height: 50px;
+	width: 60px;
+	border-radius: 17px;
+	background-position: center;
+	text-align: center;
+}
 
 
-<!--container section-->
-<div class="container">
-	<h2>Estas son algúnas de mis publicaciones:</h2>
-</div>
-<!--los container-->
-<div class="los">
+.btn-blue {
+	padding: 10px 10px;
+	border-radius: 100px;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.2s;
+	font-size: 7px;
+	font-weight: bold;
+	border: none;
+}
+.primera  {
+	border-radius: 40px;
+	margin: 60px auto;
+	background-position: center;
+}
 
-<!--primera-->
-<div class="primera"> 
-<img src="imagenes/foto 1.jpg">
-</div>
+.primera img {
+	width: 500px;
+	height: 500px;
+	border-radius: 20px;
+	margin: 90px auto;
+}
 
-	<!--segunda-->
-	<div class="segunda">
-		<img src="imagenes/foto 2.jpg">
-	</div>
-</div>
+.segunda {
+	border-radius: 40px;
+	margin: 60px auto;
+	background-position: center;
+}
 
-	
-<!--footer section-->
-<footer class="footer">
-	<div class="base">
-		<p>Gracias por esta enseñanza!! Atte: Martin Guiñazu ❤</p>
-	</div>
-</footer>
-	
+.segunda img {
+	width: 500px;
+	height: 500px;
+	border-radius: 20px;
+	margin: 90px auto;
+}
 
-  </body>
-</html>
+.footer {
+	background: black;
+	color: white;
+	padding: 40px 0;
+	font-size: 20px;
+}
+
+.los {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0;
+}
